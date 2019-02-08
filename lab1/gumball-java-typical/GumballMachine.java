@@ -13,7 +13,6 @@ public class GumballMachine
     private boolean has_coins;
     private int sum;
     private int curr_sum;
-    private int type;
     private ArrayList<Integer> validCoins;
     
      public GumballMachine( int size, int sum, ArrayList<Integer> coins)
