@@ -1,7 +1,13 @@
-#Doc Ordner
-**/doc
+out
+.metadata
+.DS_Store
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
 *.class
 *.pkh
 *.ctxt
 *.bluej
-.DS_Store
+*.bin
