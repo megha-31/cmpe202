@@ -15,7 +15,6 @@ public class NoCoinState implements State {
             return;
         }
         this.gumballMachine.curr_sum += coin;
-        this.gumballMachine.last_coin = coin;
         if (this.gumballMachine.curr_sum >= sum) {
             gumballMachine.setState(gumballMachine.getHasCoinState());
         } else {
@@ -24,11 +23,11 @@ public class NoCoinState implements State {
     }
  
     public void ejectCoin() {
-        System.out.println("You haven't inserted a quarter");
+        System.out.println("You haven't inserted a coin");
     }
  
     public void turnCrank() {
-        System.out.println("You turned, but there's no quarter");
+        System.out.println("You turned, but there's no coin");
      }
  
     public void dispense() {
@@ -36,6 +35,6 @@ public class NoCoinState implements State {
     } 
  
 	public String toString() {
-		return "waiting for quarter";
+		return "waiting for coin";
 	}
 }

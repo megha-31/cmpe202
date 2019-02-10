@@ -21,18 +21,13 @@ public class HasPartialCoinState implements State
         }
         int sum = this.gumballMachine.sum;
         this.gumballMachine.curr_sum += coin;
-        this.gumballMachine.last_coin = coin;
         if (this.gumballMachine.curr_sum >= sum)
             gumballMachine.setState(gumballMachine.getHasCoinState());
     }
  
     public void ejectCoin() {
-        int last_coin = this.gumballMachine.last_coin;
-        this.gumballMachine.curr_sum -= last_coin;
-        if (this.gumballMachine.curr_sum == 0)
-            gumballMachine.setState(gumballMachine.getNoCoinState());
-        else
-            gumballMachine.setState(gumballMachine.getHasPartialCoinState());
+        this.gumballMachine.curr_sum = 0;
+        gumballMachine.setState(gumballMachine.getNoCoinState());
         System.out.println("Coin returned");
     }
  

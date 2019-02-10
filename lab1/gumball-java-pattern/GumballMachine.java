@@ -12,7 +12,6 @@ public class GumballMachine {
     int count = 0;
     int sum = 0;
     int curr_sum = 0;
-    int last_coin = 0;
     ArrayList<Integer> validCoins;
  
     public GumballMachine(int numberGumballs, int sum, ArrayList<Integer> validCoins) {

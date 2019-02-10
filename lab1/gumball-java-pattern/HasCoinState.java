@@ -14,12 +14,9 @@ public class HasCoinState implements State {
     }
  
     public void ejectCoin() {
-        int last_coin = this.gumballMachine.last_coin;
-        this.gumballMachine.curr_sum -= last_coin;
-        if (this.gumballMachine.curr_sum == 0)
-            gumballMachine.setState(gumballMachine.getNoCoinState());
-            else
-        System.out.println("Quarter returned");
+        this.gumballMachine.curr_sum = 0;
+        gumballMachine.setState(gumballMachine.getNoCoinState());
+        System.out.println("Coin returned");
     }
  
     public void turnCrank() {

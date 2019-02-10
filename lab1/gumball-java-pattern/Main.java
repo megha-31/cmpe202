@@ -11,6 +11,10 @@ public class Main {
 		gumballMachine.turnCrank();
 		gumballMachine.insertCoin(25);
 		gumballMachine.turnCrank();
+		
+		GumballMachine gumballMachine2 = new GumballMachine(5, 25, new ArrayList<Integer>( Arrays.asList(25)));
+		gumballMachine2.insertCoin(10);
+		gumballMachine2.turnCrank();
 
 	}
 }
