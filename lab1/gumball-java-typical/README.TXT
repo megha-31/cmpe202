@@ -8,4 +8,4 @@ Implemented changes in GumballMachine to accept Valid input coins at the time of
     
 2. Changed insertQuarter method to insertCoin method so that it can accept any valid coin.
 
-3. Classes GumballMachine1, GumballMachine2 and GumballMachine3 are specific implementations of each of the gumball machines. 
+3. Classes GumballMachine1, GumballMachine2 and GumballMachine3 are specific implementations of each of the gumball machines. (Only for reference. Not used) 
