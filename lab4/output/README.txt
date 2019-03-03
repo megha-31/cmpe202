@@ -53,3 +53,4 @@ Chain of responsibility
 The Observer Pattern can be observed between QueueHandler (observer) and TableHandler (subject). The QueueHandler subscribes for table availability event. Whenever a table is available, TableHandler informs QueueHandler of the event. QueueHandler subsequently informs the Receivers which notify customer for table availability.
 
 The Chain of responsibility pattern can be observed between QueueHandler (Sender), Receiver 1 and Receiver 2. QueueHandler sends a message to Receiver1 that a table is available. Receiver1 notifies a waitlisted customer of the availability. If customer accepts, then table is marked as booked and corresponding customer record deleted. If the customer replies as Leave, then Receiver paases the message to it's successor (Receiver2) which handles the message in the same way.  
+
