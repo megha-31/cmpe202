@@ -9,8 +9,7 @@ Responds with Confirm/Leave to Receiver when a table is available
 Messages to stop receiving messages from QueueHandler
 
 Collaborators:
-QueueHandler
-Receiver
+QueueHandler, Receiver
 
 
 QueueHandler:
@@ -23,9 +22,7 @@ Receives message from Receiver when a customer Accepts. Deletes receiver object.
 Deletes corresponding customer object from Receiver queue when a customer sends Stop message.
 
 Collaborators:
-Customer
-TableHandler
-Receiver
+Customer, TableHandler, Receiver
 
 
 TableHandler:
@@ -45,8 +42,7 @@ Receives a message from QueueHandler or it’s predecessor when a table is avail
 Notifies the customer with available table and it’s capacity
 
 Collaborators:
-Customer
-QueueHandler
+Customer, QueueHandler
 
 
 
