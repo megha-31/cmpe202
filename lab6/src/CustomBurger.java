@@ -74,6 +74,16 @@ public class CustomBurger extends Composite
         
         
     }
+    
+    public Double getPrice() {
+        DecimalFormat fmt = new DecimalFormat("0.00");
+        Double price = 0.0;
+        for (Component obj  : components)
+        {   
+            price += obj.getPrice();
+        }
+        return price;
+    }
 }
 
        

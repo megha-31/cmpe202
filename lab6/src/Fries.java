@@ -18,7 +18,7 @@ public class Fries extends Composite
     
     public void printDescription() {
         
-        System.out.println(description);
+        System.out.println(description + "                  " + price);
     }
     
     public String getType(){
@@ -28,7 +28,7 @@ public class Fries extends Composite
     public void print() {
         
        
-        System.out.println(description);
+        System.out.println(description + "                  " + price);
         
     }
 }
