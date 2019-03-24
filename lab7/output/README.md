@@ -1,1 +1,1 @@
-![alt text](./output.png)
+![alt text](output/output.png)
