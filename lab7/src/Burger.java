@@ -24,7 +24,7 @@ public class Burger extends LeafDecorator
     
     public String getDescription() 
     {
-        String desc;
+        String desc = "" ;
         for ( int i = 0; i<options.length; i++ )
         {
             if (i>0) desc += " + " + options[i] ;
