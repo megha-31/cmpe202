@@ -1,6 +1,6 @@
 /* (c) Copyright 2018 Paul Nguyen. All Rights Reserved */
 
-public class CreditCardCVC implements IDisplayComponent, IKeyEventHandler
+public class CreditCardCVC extends FocusHandler implements IDisplayComponent, IKeyEventHandler
 {
 
 	private IKeyEventHandler nextHandler ;
@@ -18,17 +18,24 @@ public class CreditCardCVC implements IDisplayComponent, IKeyEventHandler
 	}	
 
 	public void key(String ch, int cnt) {
-		if ( cnt >= 21 ) {
-			if ( cnt >= 21 && cnt <= 23 )
-				cvc += ch ;
-			else if ( nextHandler != null )
+		if (ch.equals("X")) {
+			if ( cvc.equals("")) {
+				screen.setCurrentFocus(prevHandler);
+				return;
+			} else
+				cvc = cvc.substring(0, cvc.length() - 1);
+		} else if ( cvc.length() < 3 ) {
+
+			cvc += ch;
+		}
+			else if ( nextHandler != null ){
 				nextHandler.key(ch, cnt) ;
 		}
 		
 	}	
 
 	public void addSubComponent( IDisplayComponent c ) {
-		return ; // do nothing
+		return; // do nothing
 	}
 
 }

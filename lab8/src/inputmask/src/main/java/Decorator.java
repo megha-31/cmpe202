@@ -1,5 +1,5 @@
 
-public class Decorator implements IDisplayComponent, IKeyEventHandler {
+public class Decorator extends FocusHandler implements IDisplayComponent, IKeyEventHandler {
 
     IDisplayComponent component;
 
@@ -24,5 +24,4 @@ public class Decorator implements IDisplayComponent, IKeyEventHandler {
         IKeyEventHandler c = (IKeyEventHandler)component;
         c.key(ch, cnt);
     }
-
 }
