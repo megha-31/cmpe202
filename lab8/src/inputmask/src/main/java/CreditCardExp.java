@@ -15,7 +15,7 @@ public class CreditCardExp extends FocusHandler implements IDisplayComponent, IK
 	}	
 
 	public void key(String ch, int cnt) {
-		if (ch.equals("X")) {
+		if (ch.equals("X") || ch.equals("Delete")) {
 			if ( date.equals("")) {
 				screen.setCurrentFocus(prevHandler);
 				return;

@@ -17,7 +17,7 @@ public class CreditCardNum extends FocusHandler implements IDisplayComponent, IK
 	}
 
 	public void key(String ch, int cnt) {
-		if (ch.equals("X")) {
+		if (ch.equals("X") || ch.equals("Delete")) {
 			if ( number == "") {
 				screen.setCurrentFocus(prevHandler);
 				return;
