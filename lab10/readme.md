@@ -8,7 +8,7 @@ Below are the screenshots of the different gumball machines
 
 Crank Model - Cost 25
 
-![alt text](https://github.com/megha-31/cmpe202/blob/master/lab10/output/crankcost25_1.png)
+![alt text](https://github.com/megha-31/cmpe202/blob/master/lab10/output/Screen%20Shot%202019-05-01%20at%2011.56.06%20PM.png)
 
 Crank Model - Cost 50
 
