@@ -13,3 +13,11 @@ Crank Model - Cost 25
 Crank Model - Cost 50
 
 ![alt text](https://github.com/megha-31/cmpe202/blob/master/lab10/output/crankcost50_1.png)
+
+Slot Model - Cost 25
+
+![alt text](https://github.com/megha-31/cmpe202/blob/master/lab10/output/slotmodel_25.png)
+
+Slot Model - Cost 50
+
+![alt text](https://github.com/megha-31/cmpe202/blob/master/lab10/output/slotmodel_50.png)
