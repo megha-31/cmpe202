@@ -8,16 +8,16 @@ Below are the screenshots of the different gumball machines
 
 Crank Model - Cost 25
 
-![alt text](https://github.com/megha-31/cmpe202/blob/master/lab10/output/Screen%20Shot%202019-05-01%20at%2011.56.06%20PM.png)
+![alt text](https://github.com/megha-31/cmpe202/blob/master/lab10/output/Crank_25.png)
 
 Crank Model - Cost 50
 
-![alt text](https://github.com/megha-31/cmpe202/blob/master/lab10/output/crankcost50_1.png)
+![alt text](https://github.com/megha-31/cmpe202/blob/master/lab10/output/Crank_50.png)
 
 Slot Model - Cost 25
 
-![alt text](https://github.com/megha-31/cmpe202/blob/master/lab10/output/slotmodel_25.png)
+![alt text](https://github.com/megha-31/cmpe202/blob/master/lab10/output/Slot_25.png)
 
 Slot Model - Cost 50
 
-![alt text](https://github.com/megha-31/cmpe202/blob/master/lab10/output/slotmodel_50.png)
+![alt text](https://github.com/megha-31/cmpe202/blob/master/lab10/output/Slot_50.png)
